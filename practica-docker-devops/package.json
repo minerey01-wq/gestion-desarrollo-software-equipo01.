@@ -1,0 +1,14 @@
+{
+  "name": "practica-docker-devops",
+  "version": "1.0.0",
+  "description": "Control de visitas con Docker y Redis",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "redis": "^4.7.0"
+  }
+}
